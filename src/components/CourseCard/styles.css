@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* background: url('../../images/BG-image.jpg') ;  */
+    background-color: rgb(156, 136, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+   
+
+    box-shadow: 0 1px 4px rgba(126, 214, 230, 0.1);
+  /* Create a perspective effect for a slight tilt */
+  transform: perspective(1000px) rotateX(5deg);
+  /* Apply a smooth transition for a gradual change */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    
+}
+
+
+
+  .custom-link {
+    text-decoration: none; /* Remove the underline */
+    /* Add additional styling if needed */
+    color: #007bff; /* Set the link color */
+  }
+  
+  /* Optional: Add a hover effect for interactivity */
+  .custom-link:hover {
+    color: #fbff15; /* Change color on hover */
+    text-decoration: none; /* Remove underline on hover if not needed */
+  }
+  

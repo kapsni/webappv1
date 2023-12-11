@@ -1,0 +1,28 @@
+/* .main-section{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: left;
+    text-align: left;
+    color: rgb(48, 48, 49);
+
+} */
+
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.sec-choose{
+    justify-content: left;
+    text-align: left;
+}
+.sec-choose h1{
+    
+    text-align: center;
+}

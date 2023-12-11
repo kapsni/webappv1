@@ -1,0 +1,44 @@
+/* Apply a background color to the profile section */
+.profile-section {
+    background-color: #f4f4f4; /* Replace with your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    margin: 20px;
+  }
+  
+  /* Style the heading for the profile section */
+  .profile-heading {
+    font-size: 24px;
+    color: #333; /* Text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Style the individual sections (e.g., education, experience) */
+  .profile-section-item {
+    background-color: #fff; /* White background for each section */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for each section */
+  }
+  
+  /* Style headings within each section */
+  .profile-section-item h2 {
+    font-size: 20px;
+    color: #555; /* Heading color */
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs or other text content within each section */
+  .profile-section-item p {
+    font-size: 16px;
+    color: #777; /* Text color */
+  }
+  
+  /* Add hover effect for an interactive experience */
+  .profile-section-item:hover {
+    transform: translateY(-5px); /* Move the section up slightly on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+  
